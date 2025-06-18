@@ -1,80 +1,109 @@
-# 🚀 Developer Portfolio Generator (Markdown to Website)
 
-> A sleek React.js web app that converts your Markdown-based resume into a professional, customizable portfolio website — ready to deploy in one click.
+# 🚀 Developer Portfolio Generator
 
-![Banner](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/WebApplication.deploying-twitter.png?1436557933)
+> A sleek, powerful React.js web app that turns your Markdown resume into a **fully responsive portfolio website** — customizable, theme-ready, and deployable in one click!
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 📝 Convert Markdown to a live portfolio website  
-- 🎨 Theme switcher with multiple design options  
-- 👀 Live Preview your Markdown content  
-- ⚙️ Customize sections like skills, projects, contact info  
-- 🚀 Deploy to GitHub Pages in one click  
-- 📂 Download your static site code anytime  
+- 📝 **Markdown to Portfolio** – Paste your resume in markdown and instantly preview a beautiful portfolio  
+- 🎨 **Multiple Themes** – Choose from Light, Dark, Modern, and Classic  
+- 👀 **Live Preview** – View changes in real-time before deploying  
+- ⚙️ **Custom Sections** – Add projects, skills, contact details with ease  
+- 📦 **Download Code** – Get a zip of your static site anytime  
+- 🚀 **One-Click Deploy** – Publish instantly to GitHub Pages  
 
 ---
 
 ## 🔧 Tech Stack
 
-- **React.js**
-- **Markdown Parser (`remark`)**
-- **CSS Styling**
-- **GitHub Pages Deployment**
+- ⚛️ React.js  
+- 🧠 Remark Markdown Parser  
+- 🎨 Custom CSS Styling  
+- ☁️ GitHub Pages for Deployment  
 
 ---
 
-## 📦 How to Use
+## 📦 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Bhuvananagarajan/WebDevelopment_Final_project.git
 cd WebDevelopment_Final_project
-###** 2.Install Dependencies**
-**npm install**
-### **3.Run Locally**
-**npm start**
+````
 
-##**Screenshots**
+### 2. Install Dependencies
 
-**Home Page**
-![image](https://github.com/user-attachments/assets/44b5496b-29bd-442d-98f1-3df8351883dd)
+```bash
+npm install
+```
 
-**Input Markdown & Input Profile Picture**
-![image](https://github.com/user-attachments/assets/38bf6446-fd70-4b53-8ce8-2dbf25c21966)
+### 3. Run Locally
 
-**Selecting Theme**
-![image](https://github.com/user-attachments/assets/cef357e6-7cb0-4008-a892-f0743dc46220)
+```bash
+npm start
+```
 
-**Previewing Themes**
+Now open your browser at [http://localhost:3000](http://localhost:3000)
 
-**LIGHT THEME**
-![image](https://github.com/user-attachments/assets/a6f7ea8c-fbee-4cf0-b8bd-024760138d43)
+---
 
-**DARK THEME**
-![image](https://github.com/user-attachments/assets/464ec33f-4201-4556-af48-75bec41936ad)
+## 🖼️ Screenshots
 
-**MODERN THEME**
-![image](https://github.com/user-attachments/assets/a84da62a-a6c7-46b5-87f4-ea8a826ccc9c)
-
-**CLASSIC THEME**
-![image](https://github.com/user-attachments/assets/870f64e9-2104-43d0-a094-17be5ccfe4b6)
-
-**Downloading Files**
-![image](https://github.com/user-attachments/assets/fc5d9ace-ea99-491b-b53f-8fe041bc4c14)
-
-**Deploying Files**
-![image](https://github.com/user-attachments/assets/88c9a886-a9ca-443e-93e2-f52531500bce)
-![Uploading image.png…]()
+### 🏠 Home Page
+![Screenshot 2025-06-18 173412](https://github.com/user-attachments/assets/8d5ca1c6-9bb2-4191-a68b-30533903ef10)
 
 
 
+---
+
+### 📝 Input Markdown + Upload Profile Picture
+![Screenshot 2025-06-18 173445](https://github.com/user-attachments/assets/42646398-db97-41d1-886c-8f8ddf0fc15c)
 
 
+---
+
+### 🎨 Select Your Theme
+![Screenshot 2025-06-18 173623](https://github.com/user-attachments/assets/1d7f4bee-07d9-4ea1-9e99-1e0faea9ec2d)
 
 
+---
 
+### 🖥️ Theme Previews
+
+#### 🌞 Light Theme
+
+![Screenshot 2025-06-18 173759](https://github.com/user-attachments/assets/663637a7-35d0-47be-a1a4-e9e3915c2752)
+
+#### 🌙 Dark Theme
+
+![Screenshot 2025-06-18 173853](https://github.com/user-attachments/assets/7d06863c-fe00-4f12-bb86-8de9eb421ee7)
+
+#### 🧼 Modern Theme
+
+![Screenshot 2025-06-18 174117](https://github.com/user-attachments/assets/b6d2fb28-1965-445f-9d47-57a8bb2a613e)
+
+#### 🗂️ Classic Theme
+
+![Screenshot 2025-06-18 174044](https://github.com/user-attachments/assets/94d5aeb5-bd79-486f-b2da-fe75a88ba77c)
+
+---
+
+### 💾 Downloading Your Files
+
+![Screenshot 2025-06-18 174200](https://github.com/user-attachments/assets/2d994ed6-3e07-4720-8d9b-81bb76d2e470)
+
+---
+### 🌍 Deploy to GitHub Pages
+![Screenshot 2025-06-18 174230](https://github.com/user-attachments/assets/1e267688-c744-4b71-83cd-2b63130f14f0)
+
+---
+
+## 🙌 Made With
+
+* ❤️ Passion for helping developers shine
+* 👩‍💻 Built by [Bhuvaneswari N](https://github.com/Bhuvananagarajan)
+* 🌟 Powered by React + Markdown + GitHub Pages
 
