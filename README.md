@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🚀 Developer Portfolio Generator (Markdown to Website)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A sleek React.js web app that converts your Markdown-based resume into a professional, customizable portfolio website — ready to deploy in one click.
 
-## Available Scripts
+![Banner](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/WebApplication.deploying-twitter.png?1436557933)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📝 Convert Markdown to a live portfolio website  
+- 🎨 Theme switcher with multiple design options  
+- 👀 Live Preview your Markdown content  
+- ⚙️ Customize sections like skills, projects, contact info  
+- 🚀 Deploy to GitHub Pages in one click  
+- 📂 Download your static site code anytime  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔧 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**
+- **Markdown Parser (`remark`)**
+- **CSS Styling**
+- **GitHub Pages Deployment**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 How to Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Bhuvananagarajan/WebDevelopment_Final_project.git
+cd WebDevelopment_Final_project
+###** 2.Install Dependencies**
+**npm install**
+### **3.Run Locally**
+**npm start**
 
-### `npm run eject`
+##**Screenshots**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Home Page**
+![image](https://github.com/user-attachments/assets/44b5496b-29bd-442d-98f1-3df8351883dd)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Input Markdown & Input Profile Picture**
+![image](https://github.com/user-attachments/assets/38bf6446-fd70-4b53-8ce8-2dbf25c21966)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Selecting Theme**
+![image](https://github.com/user-attachments/assets/cef357e6-7cb0-4008-a892-f0743dc46220)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Previewing Themes**
 
-## Learn More
+**LIGHT THEME**
+![image](https://github.com/user-attachments/assets/a6f7ea8c-fbee-4cf0-b8bd-024760138d43)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**DARK THEME**
+![image](https://github.com/user-attachments/assets/464ec33f-4201-4556-af48-75bec41936ad)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**MODERN THEME**
+![image](https://github.com/user-attachments/assets/a84da62a-a6c7-46b5-87f4-ea8a826ccc9c)
 
-### Code Splitting
+**CLASSIC THEME**
+![image](https://github.com/user-attachments/assets/870f64e9-2104-43d0-a094-17be5ccfe4b6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Downloading Files**
+![image](https://github.com/user-attachments/assets/fc5d9ace-ea99-491b-b53f-8fe041bc4c14)
 
-### Analyzing the Bundle Size
+**Deploying Files**
+![image](https://github.com/user-attachments/assets/88c9a886-a9ca-443e-93e2-f52531500bce)
+![Uploading image.png…]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
