@@ -1,0 +1,156 @@
+.themeLight {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.themeLight .navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.themeLight .navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.themeLight .navbar a:hover {
+  background-color: #eee;
+}
+
+/* Profile Image */
+.themeLight img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+}
+
+/* Headings */
+.themeLight h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 15px 0 5px;
+}
+
+.themeLight h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #555;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Subheading (role/title) */
+.themeLight .subtitle {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.themeLight p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #444;
+  max-width: 700px;
+  margin: 10px auto 30px;
+}
+
+/* Lists */
+.themeLight ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+.themeLight ul li {
+  font-size: 16px;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+}
+
+.themeLight ul li::before {
+  content: "✨ ";
+  margin-right: 10px;
+}
+
+/* Section Container */
+.themeLight .section {
+  margin: 60px 0;
+}
+
+/* Emojis in Section Titles */
+.themeLight .skills h2::before {
+  content: "🛠️ ";
+}
+
+.themeLight .projects h2::before {
+  content: "📁 ";
+}
+
+.themeLight .experience h2::before {
+  content: "💼 ";
+}
+
+.themeLight .education h2::before {
+  content: "🎓 ";
+}
+
+.themeLight .contact h2::before {
+  content: "📞 ";
+}
+
+/* Footer */
+.themeLight .footer {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .themeLight h1 {
+    font-size: 28px;
+  }
+
+  .themeLight h2 {
+    font-size: 22px;
+  }
+
+  .themeLight img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .themeLight .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.navbar a {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: inherit;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  background-color: #b5cd19;
+  font-weight:bold;
+}

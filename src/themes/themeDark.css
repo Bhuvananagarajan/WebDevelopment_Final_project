@@ -1,0 +1,55 @@
+/* Dark theme with stylish modern background and neon glow */
+.themeDark {
+  background-color: #111111;
+  color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.themeDark .navbar {
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #333;
+}
+
+/* Buttons */
+.themeDark .btn {
+  background: #ff00c8; /* vibrant neon pink/purple */
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+.themeDark .btn:hover {
+  background: #e600ac;
+}
+
+/* Cards or project blocks */
+.themeDark .card {
+  border: 1px solid #555;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Glowing profile image effect */
+.themeDark .profile-img-large {
+  border: 4px solid #ff00c8;
+  box-shadow: 0 0 25px #ff00c8;
+  transition: 0.3s ease;
+}
+
+/* Section heading styling */
+.themeDark .markdown-content h1,
+.themeDark .markdown-content h2 {
+  color: #fff;
+  border-left: 4px solid #ff00c8;
+  padding-left: 10px;
+}
+
+/* Optional QR code contrast */
+.themeDark .qr-container canvas {
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}

@@ -1,0 +1,68 @@
+/* DownloadButton.css */
+.download-container {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 700px;
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
+  background-size: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  position: relative;
+}
+
+.download-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  z-index: 0;
+}
+
+.download-container * {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-download {
+  background: #ff69b4;
+  color: white;
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(255, 105, 180, 0.4);
+}
+
+.btn-download:hover {
+  background: #ff85c1;
+  box-shadow: 0 6px 18px rgba(255, 105, 180, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-download.html {
+  background: #6a5acd;
+}
+
+.btn-download.html:hover {
+  background: #7b68ee;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fffdd0;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

@@ -1,0 +1,53 @@
+.theme-page {
+  max-width: 1000px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.theme-page h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 0 2rem;
+  justify-content: center;
+}
+
+.theme-card {
+  background: #fff0f6;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(255, 192, 203, 0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-card:hover {
+  box-shadow: 0 0 12px rgba(255, 105, 180, 0.8);
+  transform: scale(1.02);
+}
+
+.theme-card.active {
+  border: 2px solid hotpink;
+  box-shadow: 0 0 14px rgba(255, 105, 180, 1);
+}
+
+.theme-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.theme-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #444;
+}

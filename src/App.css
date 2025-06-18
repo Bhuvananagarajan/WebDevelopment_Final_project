@@ -1,7 +1,61 @@
-.App {
-  text-align: center;
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Set up full-height layout */
+
+/* App component full container */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ /* Ensure consistency */
+}
+
+/* Optional: Navbar, if needed */
+.navbar {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons or links inside App */
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #059669;
+}
+
+/* Page header styling */
+.App-header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #1f2937;
+}
+
+/* For optional animated logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,21 +67,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +74,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Link styles */
+.App-link {
+  color: #1f2937;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
 }
