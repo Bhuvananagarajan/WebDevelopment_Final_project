@@ -74,20 +74,16 @@ Now open your browser at [http://localhost:3000](http://localhost:3000)
 ### 🖥️ Theme Previews
 
 #### 🌞 Light Theme
-
-![Screenshot 2025-06-18 173759](https://github.com/user-attachments/assets/663637a7-35d0-47be-a1a4-e9e3915c2752)
+![image](https://github.com/user-attachments/assets/d9537609-56ae-4eda-8de2-06e25015ae2d)
 
 #### 🌙 Dark Theme
-
-![Screenshot 2025-06-18 173853](https://github.com/user-attachments/assets/7d06863c-fe00-4f12-bb86-8de9eb421ee7)
+![image](https://github.com/user-attachments/assets/f36adb4f-ac72-4267-b453-0f54255cb463)
 
 #### 🧼 Modern Theme
-
-![Screenshot 2025-06-18 174117](https://github.com/user-attachments/assets/b6d2fb28-1965-445f-9d47-57a8bb2a613e)
+![image](https://github.com/user-attachments/assets/dfdf8002-ae8d-4ac7-8671-39c44fc3ee6f)
 
 #### 🗂️ Classic Theme
-
-![Screenshot 2025-06-18 174044](https://github.com/user-attachments/assets/94d5aeb5-bd79-486f-b2da-fe75a88ba77c)
+![image](https://github.com/user-attachments/assets/3bad675f-17a4-4312-8c34-6d540320f688)
 
 ---
 
